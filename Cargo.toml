@@ -1,0 +1,11 @@
+[package]
+name = "zometest"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+name = "zometest"
+
+[dependencies]
+hdk = "=0.3.2"
